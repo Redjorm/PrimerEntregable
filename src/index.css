@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Concert One', cursive;
-    background: url("../public/images/fondo1.png");
+    background: url("./images/fondo1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
