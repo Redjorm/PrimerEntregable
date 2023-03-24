@@ -97,7 +97,7 @@ body {
 }
 
 .card__autor {
-    margin-top: 10rem;
+    margin-top: 5rem;
     color: var(--autorTitle);
     display: flex;
     align-items: center;
@@ -105,13 +105,4 @@ body {
     background-color: rgba(138, 138, 138, 0.712);
     border-radius: .1rem;
     width: 230px;
-}
-
-.corte {
-    position: absolute;
-    bottom: -11px;
-    right: 4px;
-    border-bottom: 41px solid transparent;
-    border-left: 44px solid var(--borderFortune);
-    transform: rotate(18deg);
 }
