@@ -11,7 +11,7 @@ export const Button = ({phrase, phrases}) => {
     const newPhrase = getRandomArray(phrases)
     const background = getRandomBackground()
     setSentence(newPhrase)
-    document.body.style.backgroundImage = "url('./fondo2.png')";
+    document.body.style.backgroundImage = "url('/images/fondo" + background + ".png')";
 
   }
 
