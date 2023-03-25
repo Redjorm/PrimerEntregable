@@ -8,6 +8,8 @@ function App() {
   
   const phrase = getRandomArray(phrases)
   const number = getRandomBackground()
+
+  document.body.style.backgroundImage = "url('/images/fondo" + number + ".png')";
   
   return (
     <div className="App">
